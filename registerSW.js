@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/background-and-text/sw.js', { scope: '/background-and-text/' })})}
