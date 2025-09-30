@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/background-and-text/dev-sw.js?dev-sw', { scope: '/background-and-text/', type: 'classic' })
